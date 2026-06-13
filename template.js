@@ -267,7 +267,7 @@ if (contactForm) {
     btn.textContent = "Inatuma...";
     statusEl.textContent = "";
 
-    emailjs.sendForm("service_lun3fdj", "template_1dodp6y", contactForm).then(
+    emailjs.sendForm("service_lun3fdj", "template_6qa60mq", contactForm).then(
       () => {
         statusEl.textContent = "Ujumbe wako umetumwa. Asante!";
         statusEl.style.color = "#00f0ff";
